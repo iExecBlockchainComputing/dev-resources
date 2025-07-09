@@ -107,18 +107,16 @@ You have requested access to the SCONE build tools via email but have not receiv
 Access to the SCONE tools is typically granted within 2 to 24 hours. If you haven't received a reply after this period, it's advisable to contact the Scontain team again.
 
 
-## 🔹 Unable to sconify with node v16
+## 🔹 Docker Cleanup
 
 ### Problem
-Users attempting to sconify Node.js v16 encounter the following error message:
+Guide to cleaning your local Docker environment
 ```
-ERROR: Sorry, this node version is not supported!
+ERROR: no space left on device
 ```
 
 ### Solution  
-To address the issue, ensure that you are using Node.js version 14 in your Docker file when sconifying. Scone currently supports only Node.js version 14.
- 
-Keep in mind that it's important to stay updated on Scone's compatibility requirements, and check for any future announcements regarding support for newer Node.js versions. This will help prevent delays and ensure a smoother development process. If you continue to face issues, consider reaching out to our support team for further assistance.
+To clean up Docker and remove unused images, the main command is docker image prune. For a more comprehensive cleanup that also includes unused containers and networks, use docker system prune. If you want to delete all images not associated with a container, not just dangling ones, add the -a flag to these commands.
 
 
 ## 🔹 Buffer is not defined
