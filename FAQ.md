@@ -116,7 +116,7 @@ ERROR: no space left on device
 ```
 
 ### Solution  
-To clean up Docker and remove unused images, the main command is docker image prune. For a more comprehensive cleanup that also includes unused containers and networks, use docker system prune. If you want to delete all images not associated with a container, not just dangling ones, add the -a flag to these commands.
+To clean up Docker and remove unused images, the main command is ```docker image prune ```. For a more comprehensive cleanup that also includes unused containers and networks, use ```docker system prune```. If you want to delete all images not associated with a container, not just dangling ones, add the ```-a``` flag to these commands.
 
 
 ## 🔹 Buffer is not defined
