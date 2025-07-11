@@ -112,7 +112,7 @@ Access to the SCONE tools is typically granted within 2 to 24 hours. If you have
 ### Problem
 Guide to cleaning your local Docker environment , no space left on device
 ```
-ERROR: no space left on device
+docker: Error response from daemon: no space left on device
 ```
 
 ### Solution  
