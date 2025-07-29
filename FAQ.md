@@ -129,6 +129,21 @@ To solve the issue, configure a polyfill for Buffer by following this guide:
 [Buffer polyfill on StackOverflow](https://stackoverflow.com/questions/70714690/buffer-is-not-defined-in-react-vite)
 
 
+## 🔹 Deployment issue with iApp Generator on macOS (ARM64)
+
+### Problem
+
+A common error encountered by users of Macs with an Apple Silicon chip (M1, M2, M3, etc.) when deploying applications with iapp-generator is a failure related to Docker platform compatibility. This issue is not directly linked to the machine's ARM64 architecture itself, but rather to how Docker Desktop handles images designed for different architectures.
+```
+Error: failed to get destination image “sha256:eac60eea79d7dcacd94fcf6141e402dd069c0168c4c56ee447a4bee81a21b198”: image with reference sha256:eac60eea79d7dcacd94fcf6141e402dd069c0168c4c56ee447a4bee81a21b198 was found but does not provide the specified platform (linux/amd64)
+```
+In short: The error means that the Docker image you are trying to run was built for a linux/amd64 architecture (Intel/AMD processors) and your system, an ARM64 Mac, cannot run it natively.
+
+### Solution
+The proven and effective solution is to replace Docker Desktop with OrbStack.
+
+What is OrbStack? OrbStack is an alternative to Docker Desktop for macOS, designed to be faster, lighter, and more efficient. It offers better integration with macOS and a much more performant and reliable emulation of linux/amd64 images through an optimized approach.
+
 ## 🔹 Can I bridge RLC from a centralized exchange to The iExec Sidechain "Bellecour"?
 
 ### Problem
