@@ -142,7 +142,8 @@ In short: The error means that the Docker image you are trying to run was built 
 ### Solution
 The proven and effective solution is to replace Docker Desktop with OrbStack.
 
-What is OrbStack? OrbStack is an alternative to Docker Desktop for macOS, designed to be faster, lighter, and more efficient. It offers better integration with macOS and a much more performant and reliable emulation of linux/amd64 images through an optimized approach.
+What is OrbStack:
+OrbStack is an alternative to Docker Desktop for macOS, designed to be faster, lighter, and more efficient. It offers better integration with macOS and a much more performant and reliable emulation of linux/amd64 images through an optimized approach.
 
 ## 🔹 Can I bridge RLC from a centralized exchange to The iExec Sidechain "Bellecour"?
 
