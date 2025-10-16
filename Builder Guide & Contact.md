@@ -5,10 +5,7 @@
 ## 📚 Essential Resources
 
 ### Documentation Hub
-- **Main Documentation**: [iExec Documentation](https://docs.iex.ec/)
-- **Developer Tools**: [iExec Tools Documentation](https://tools.docs.iex.ec/)
-- **Protocol Details**: [iExec Protocol Documentation](https://protocol.docs.iex.ec/)
-
+- **Documentation**: [iExec Documentation](https://docs.iex.ec/)
 
 
 ## 🔗 Important Links
@@ -26,13 +23,11 @@
 #### Discord
 - [iExec Discord Server](https://discord.com/invite/pbt9m98wnU)
 - [`🎫┃support-ticket`](https://discord.gg/3JAXJpbKjj) - Open a private ticket (bot will respond first)
-- [`🔧┃support-questions`](https://discord.gg/g6HZtsq6U5) - Public channel (mention `@iExec Support` for help)
 
 
 #### Other Channels
 - [Telegram Support](https://t.me/iExecSupportBot)
 - [WebChat Support](https://builder.iex.ec/)
-- [Support Jira Portal](https://support.iex.ec/)
 
 **Office Hours**: 9:00 - 18:00 CET
 
@@ -46,7 +41,7 @@
 
 ## 🔥 Next Steps
 1. Join our [Discord Community](https://discord.com/invite/pbt9m98wnU)
-2. Follow the [Hello World Tutorial](https://tools.docs.iex.ec/overview/helloWorld)
+2. Follow the [Hello World Tutorial](https://docs.iex.ec/get-started/helloWorld)
 3. Explore [Demo Page](https://demo.iex.ec/)
 
 
