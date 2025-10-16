@@ -77,7 +77,22 @@ Possible causes and fixes :
 - **Gas Configuration**  
   - Set gas price to **0 Wei**
   - Ensure sufficient gas limit (minimum 2M recommended)
+  
+## 🔹 Troubleshooting "No Workerpool Order Found" Error
 
+### Problem
+Why am I getting the "no workerpool order found" error and how can I fix it?
+
+### Solution
+This error can happen for two main reasons. Here’s how to understand and solve it:
+
+1.  **You are sending tasks too quickly.**
+    * **Problem:** If you send multiple tasks back-to-back, the system may temporarily block your requests to prevent spam.
+    * **Solution:** You must wait at least **20 seconds** between each task you send. If you still get the error, increase the delay and try again later.
+
+2.  **The workerpool is genuinely unavailable.**
+    * **Problem:** The worker may simply have no open orders at that moment.
+    * **Solution:** Before sending a task, you can check for availability using the `fetchWorkerpoolOrderbook` function with the iExec SDK. This confirms if the worker is ready to accept your job.
 
 ## 🔹 Error: Failed to Establish an Encrypted Channel to CAS
 
