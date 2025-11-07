@@ -306,4 +306,27 @@ const web3Provider = new Web3.providers.HttpProvider('https://bellecour.iex.ec')
 - Processing protected data requires proper access rights and available computing resources
 - Test with price set to 0 if RLC tokens are not available
 
+## 🔹 Required signatures when using iExec DataProtector
+
+### Question
+Why are there 4 signatures required to create Protected Data?
+
+### Answer
+Creating "Protected Data" is not just a simple upload. It's a process that guarantees on-chain ownership, off-chain security, and data governance.
+
+- **Register On-Chain**
+  *Create protected data into DataProtector registry smart-contract.*
+  This transaction proves your ownership by registering your data on the blockchain.
+
+- **Secure the Key**
+  *Push protected data encryption key to iExec SMS.*
+  This securely stores the decryption key in iExec's off-chain vault, so only authorized apps can use it later.
+
+- **Set Permissions**
+  *Creation of orders (DatasetOrder).*
+  This defines the first usage rule (who can use your data and how).
+
+- **Gateway Authentication**
+  *Challenge: Sign this message to log into iExec Gateway.*
+  This authenticates your current session with iExec services (the Gateway acts as a bridge between your requests and the blockchain/workers).
 
