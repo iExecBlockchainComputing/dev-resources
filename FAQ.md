@@ -271,7 +271,6 @@ CORS in Development
 ### Solution
 - Ensure proper initialization of DataProtector methods
 - Don't just initialize the module, use specific methods like protectData()
-- Reference the sandbox implementation: https://codesandbox.io/p/github/iexecblockchaincomputing/dataprotector-sandbox/main
 
 ## 🔹 Chain Support and Configuration
 ### Problem
