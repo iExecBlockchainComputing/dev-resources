@@ -76,33 +76,6 @@ This error can happen for two main reasons. Here’s how to understand and solve
     * **Problem:** The worker may simply have no open orders at that moment.
     * **Solution:** Before sending a task, you can check for availability using the `fetchWorkerpoolOrderbook` function with the iExec SDK. This confirms if the worker is ready to accept your job.
 
-## 🔹 Error: Failed to Establish an Encrypted Channel to CAS
-
-### Problem
-When running a SCONE-based TEE Dapp, you might encounter the following error:
-```
-[SCONE|WARN] rust-cache/cargo/registry/src/github.com-1ecc6299db9ec823/rustls-0.19.1/src/session.rs:798:Sending fatal alert BadCertificate
-[SCONE|FATAL] src/process/init.c:379:__scone_prepare_secure_config(): Could not initialize enclave state: Attestation failed
-Caused by: Failed to establish an encrypted channel to CAS
-Caused by: I/O error
-Caused by: invalid certificate: UnknownIssuer 
-```
-
-### Solution  
-This error happens when the image used to build the application does not match the CAS version set-up in the worker.
-To solve the issue, please make sure that:
-- You are building your Dapp using the latest version of the sconifier image
-- You are following the instructions provided in the [documentation](https://protocol.docs.iex.ec/for-developers/confidential-computing/create-your-first-sgx-app).
-
-
-## 🔹 Accessing the SCONE build tools
-
-### Problem
-You have requested access to the SCONE build tools via email but have not received a response, and the tools are not appearing on GitLab.
-
-### Solution  
-Access to the SCONE tools is typically granted within 2 to 24 hours. If you haven't received a reply after this period, it's advisable to contact the Scontain team again.
-
 
 ## 🔹 Docker Cleanup
 
