@@ -11,9 +11,10 @@
 ## 🔗 Important Links
 - [iExec Explorer](https://explorer.iex.ec/)
 - [Bellecour Blockchain Explorer](https://blockscout-bellecour.iex.ec/)
-- [iExec Demo Page](https://demo.iex.ec/)
+- [iExec Use Cases](https://docs.noxprotocol.io/getting-started/use-cases)
 - [iExec Confidential AI](https://www.iex.ec/confidential-ai)
-- [iExec GitHub Organization](https://github.com/iExecBlockchainComputing)
+- [iExec Poco GitHub Organization](https://github.com/iExecBlockchainComputing)
+- [iExec Nox GitHub Organization](https://github.com/iExec-Nox)
 
 
 
@@ -27,7 +28,6 @@
 
 #### Other Channels
 - [Telegram Support](https://t.me/iExecSupportBot)
-- [WebChat Support](https://builder.iex.ec/)
 
 **Office Hours**: 9:00 - 18:00 CET
 
@@ -41,8 +41,8 @@
 
 ## 🔥 Next Steps
 1. Join our [Discord Community](https://discord.com/invite/pbt9m98wnU)
-2. Follow the [Hello World Tutorial](https://docs.iex.ec/get-started/helloWorld)
-3. Explore [Demo Page](https://demo.iex.ec/)
+2. Follow the [Hello World Tutorial](https://docs.noxprotocol.io/getting-started/hello-world)
+3. Explore [Use Cases Page]([https://demo.iex.ec/](https://docs.noxprotocol.io/getting-started/use-cases))
 
 
 
