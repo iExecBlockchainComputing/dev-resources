@@ -42,7 +42,7 @@
 ## 🔥 Next Steps
 1. Join our [Discord Community](https://discord.com/invite/pbt9m98wnU)
 2. Follow the [Hello World Tutorial](https://docs.noxprotocol.io/getting-started/hello-world)
-3. Explore [Use Cases Page]([https://demo.iex.ec/](https://docs.noxprotocol.io/getting-started/use-cases))
+3. Explore [Use Cases Page](https://docs.noxprotocol.io/getting-started/use-cases)
 
 
 
